@@ -1,0 +1,218 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+html {
+    scroll-behavior: smooth;
+}
+body {
+    overflow-x: hidden;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+.container {
+    background-color: #0F8B8D;
+    background-size: cover;
+    border-radius: 20px 20px 0px 0px;
+}
+.content h1{
+    margin: 100px 0px 40px 0px;
+    color: #0F8B8D;
+    text-align: center;
+    font-family: Lato;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.content .p{
+    color: #143642;
+    text-align: center;
+    font-family: Lato;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-bottom: 40px;
+}
+.logo {
+    margin: 39px 0px 39px 138px;
+}
+.list {
+    display: flex;
+    float: left;
+    align-items: center;
+    margin: 0px 89px;
+}
+.list p {
+    color: #F9FBFE;
+    text-align: center;
+    font-family: Lato;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 0px 49px;
+}
+.list a {
+    text-decoration: none;
+}
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.gallery1 {
+    text-align: center;
+    display: flex;
+}
+.gallery2 {
+    text-align: center;
+    display: flex;
+    margin-bottom: 99px;
+}
+.img1,.img2,.img3,.img4,.img5,.img6 {
+    background-image: url(img/Coffee\ background.png);
+    margin: 10px;
+    border-radius: 10%;
+}
+.img1 p,.img2 p,.img3 p,.img4 p,.img5 p,.img6 p{
+    margin-top: 21px;
+    color: #F9FBFE;
+    text-align: center;
+    font-family: Lato;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.img1 a,.img2 a,.img3 a,.img4 a,.img5 a,.img6 a{
+    text-decoration: none;
+}
+.footer {
+    border-radius: 30px;
+    background: #143642;
+    display: flex;
+    height: 460px;
+    flex-shrink: 0;
+    justify-content: space-evenly;
+}
+.footerlogo {
+    margin:80px 139px 31px 0px ;
+}
+
+.icon2 {
+    filter: brightness(0) invert(1);
+    margin-right: 10px;
+}
+.footer2,.footer3,.footer4 {
+    margin-top: 80px;
+    margin-right: 100px;
+}
+.footer2 .font,.footer3 .font,.footer4 .font {
+    color: #EC9A29;
+font-family: Lato;
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.footer2 h4,.footer3 h4,.footer4 h4 {
+    color: #F9FBFE;
+    font-family: Lato;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 20px;
+}
+@media (max-width: 360px) {
+    .navbar {
+        flex-direction: column;
+    }
+    .logo {
+        margin: 20px 0px 0px 40px;
+        width: 135px;
+    }
+    .list {
+        margin: 10px 0px 10px 0px;
+        justify-content: center;
+    }
+    .list p {
+        font-size: 14px;
+        margin: 0px 25px;
+    }
+    .list a {
+        text-decoration: none;
+    }
+    .content h1{
+        font-size: 20px;
+        margin: 40px 0px 20px 0px;
+    }
+    .content .p {
+        font-size: 12px;
+        margin-bottom: 20px;
+    }
+    .gallery {
+        display: flex;
+    }
+    .gallery img {
+        width: 140px;
+    }
+    .gallery1,.gallery2 {
+        flex-direction: column;
+    }
+    .img1 p, .img2 p, .img3 p, .img4 p, .img5 p, .img6 p {
+        font-size: 12px;
+        margin-top: 13px;
+    }
+    .img a {
+        text-decoration: none;
+    }
+    .img1, .img2, .img3, .img4, .img5, .img6 {
+        margin: 5px;
+        width: 164px;
+    }
+    .footer {
+        border-radius: 30px;
+        height: 460px;
+        flex-direction: column;
+    }
+    .footer1{
+        display: flex;
+        justify-content: center;
+    }
+    .footerlogo {
+        margin:0px ;
+        width: 145px;
+        height: 29px;
+    }
+    .icon{
+        margin-left: 73px;
+    }
+    .icon2 {
+        filter: brightness(0) invert(1);
+        margin-right: 0px;
+        width: 25px;
+        margin: 0px 8.5px 0px 8.5px;
+    }
+    .footer2,.footer3,.footer4 {
+        margin-top: 0px;
+        margin-right: 0px;
+        margin-left: 40px;
+    }
+    .footer2 .font,.footer3 .font,.footer4 .font {
+        font-size: 14px;
+
+    }
+    .footer2 h4,.footer3 h4,.footer4 h4 {
+        font-size: 14px;
+        margin-bottom: 0px;
+    }
+    .subFont{
+        margin: 10px 0px 0px 30px;
+    }
+}
